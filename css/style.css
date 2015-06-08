@@ -1,0 +1,112 @@
+/*********************************
+*	Reset CSS                     
+*********************************/
+*{
+	margin: 0;
+	padding: 0;
+  font-family: helvetica, sans-serif;
+ 
+}
+
+h3{
+  line-height: 2em;
+  font-weight: normal;
+}
+
+p{
+  padding:15px;
+  margin-left: 10px;
+}
+/*********************************
+*	Landing Page CSS                     
+*********************************/
+
+#landingPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+	background: url(../img/landingPage.jpg);
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Bevan', cursive;
+}
+
+#landingPage img{
+  margin: 40px;
+  width: 60px;
+  height: 60px;
+}
+
+a#landingPage:hover{
+  width: 70px;
+  height: 70px;
+}
+
+#landingPage h1{
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 3em;
+  font-family: 'Bevan', cursive;
+}
+
+#landingPage h2{
+  display: inline;
+  font-size: 2em;
+  padding: 5px;
+  color: white;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+a.mailLink{
+  font-size: 1.3em;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+}
+
+a.mailLink:hover{
+  color: #FE6363;
+}
+
+#pageDown img{  
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  padding: 40px;
+}
+
+
+
+/*********************************
+* Main Page CSS                     
+*********************************/
+section{
+  height: 100vh;
+}
+
+.navbar{
+  border-radius: 0;
+}
+
+/*********************************
+*  Home CSS                     
+*********************************/
+#mainContent{
+  margin: 0 auto;
+  width: 75%;
+  margin-top: 10%;
+}
+
+#mainContentSkill{
+  margin: 0 auto;
+  width: 75%;
+  margin-top: 2%;
+}
+
+.btn-group-lg, .btn-lg
+  margin-left: 25px;
+}
+
